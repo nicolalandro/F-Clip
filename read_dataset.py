@@ -47,7 +47,7 @@ for image_name in os.listdir(os.path.join(dataset_dir)):
 
         loaded_mask = np.asarray(create_img)
 
-        sample["segmentations"] = fo.Segmentation(
+        sample["ground-truth"] = fo.Segmentation(
             mask=loaded_mask,
         )
 
