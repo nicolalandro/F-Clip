@@ -7,3 +7,7 @@
 ```
 nohup python3.7 train.py -d 0 -i HG1_D3 config/fclip_HG1_D3.yaml > experiment_HG1_D3.log 2>&1 &
 ```
+* show dataset
+```
+python3.7 read_dataset.py
+```
