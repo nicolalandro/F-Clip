@@ -1,3 +1,6 @@
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nicolalandro/F-Clip/blob/master/F_Clip_Demo.ipynb)
+
+
 # F-Clip — Fully Convolutional Line Parsing
 
 This repository contains the official PyTorch implementation of the paper: 
