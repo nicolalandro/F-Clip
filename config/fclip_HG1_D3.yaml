@@ -1,5 +1,6 @@
 io:
   dataname: shanghaiTech  # york, shanghaiTech
+  datadir: /home/supreme/datasets-nas/line_detection/wireframe1_datarota_3w
   resume_from:  # ckpt path when the program was stopped by accident
   model_initialize_file:
 
@@ -11,4 +12,7 @@ model:
   num_stacks: 1
   num_blocks: 1
   inplanes: 64
+  batch_size: 18
 
+optim:
+  max_epoch: 100
